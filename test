@@ -1,0 +1,48 @@
+The Golden Gate Bridge DevOps Engineer - Bath 05 - Bootcamp_01_Virtual
+https://tcsglobal.webex.com/tcsglobal/j.php?MTID=m9d380d9b684925bdb65d7ea1fd833f72
+Meeting number:166 042 2952
+Meeting password:Tata@123
+Meeting Duration: July 20, 2020, to Friday, July 24, 2020
+
+
+
+Create a document.. Git Handson_yourname
+Practice all the commands in the git readme..
+and take a screenshot of the response along with the command executed.
+ans put it in the doc one by one..
+and commit your doc into your git repo
+
+10 Junit Testcases / Person..
+2 Services.. 
+
+1. Dynamic Web Project.. (I will give you repo for it )
+Clone it and write a dockerfile to run it on a tomcat server as a container.
+Write a docker compose file to run your java application as well as mysql database from a single docker compose file.
+Git clone https://github.com/shubhamkushwah123/war-test.git
+Hands on must have screen shot of
+dockerfile,composefile, build screenshot. 
+docker compose execution screenshot
+
+Creating a pipeline 
+1. checkout our code 
+2. Build it using Jenkins runtime Maven
+3. Build a Docker image using Jenkins provided docker
+4. Push the image to DockerHub usign WithCredentials Plugin
+5. Deploying the Docker Image to PCF.
+
+make use of pushtocloudfoundly plugin in jenkins
+
+Deploy to tomcat needs to be done on war project .... 1. checkout.. 2. mvn build... test.. 3. deploy to tomcat locally.
+
+
+Hi @All, here is the assignment detail for today (day 4):
+SpringBoot Application -- Jenkins Pipeline (groovy script) -- which needs to be pushed to GitHub Repository that includes:
+a) git checkout
+b) build & test using jenkins runtime maven
+c) build docker image using jenkins runtime docker
+d) push the image to dockerhub using withcredentials plugin
+e) deploying the docker image to PCF
+
+War-test --> checkout, mvn build & test and deploy to tomcat locally -- again this as well needs to be done using Jenkins pipeline -- however, a screenshot of Jenkins pipeline (groovy script) suffice here and push the screenshot doc as well to GitHub Repo.
+
+Hope I've covered it correctly. Please correct if anything missed.
